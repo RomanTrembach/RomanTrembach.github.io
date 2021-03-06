@@ -120,11 +120,11 @@ p {font-size: 1.1rem;}
    border-right: 2px ridge purple;
 }
 
-.new-card h2, .about h2 {
+h2, h3 {
    color: #005B5B;
 }
 
-.new-card p, .about p {
+p {
    color: #6600AA;
 }
 
@@ -132,7 +132,7 @@ p {font-size: 1.1rem;}
    text-align: center;
 }
 
-.about h2 {
+.about h2, .about h3 {
    display: block;
    margin-left: auto;
    margin-right: auto;
