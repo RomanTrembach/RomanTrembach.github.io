@@ -144,6 +144,8 @@ p {
 .btn {
    margin-left: auto;
    margin-right: auto;
+   margin-top: 10px;
    height: auto;
    font-size: medium;
+   background-color: #7B00FF;
 }
