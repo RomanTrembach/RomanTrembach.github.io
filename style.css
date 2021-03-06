@@ -6,7 +6,7 @@ html, body {
    margin-left: auto;
    margin-right: auto;
    padding: 10px;
-   height: 100vh;
+   height: 100%;
    background: #D1D1D1;
    position: relative;
 }
@@ -66,7 +66,7 @@ a.disabled {
 }
 
 footer {
-   z-index: 9999;
+   z-index: 0;
 }
 
 footer a, footer a:hover {
