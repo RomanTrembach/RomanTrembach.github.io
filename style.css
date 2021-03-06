@@ -9,6 +9,7 @@ html, body {
    height: 100%;
    background: #D1D1D1;
    position: relative;
+   z-index: 9999;
 }
 
 header, div, footer {
