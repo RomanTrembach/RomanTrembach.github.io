@@ -140,3 +140,10 @@ p {
    margin-right: auto;
    text-align: center;
 }
+
+.btn {
+   margin-left: auto;
+   margin-right: auto;
+   height: auto;
+   font-size: medium;
+}
