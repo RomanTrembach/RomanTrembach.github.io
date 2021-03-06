@@ -1,0 +1,129 @@
+html, body {
+   background: #607D8B;
+}
+
+.body {
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px;
+   height: 100%;
+   background: #D1D1D1;
+   position: relative;
+}
+
+header, div, footer {
+   padding: 10px;
+   box-shadow: black 3px 0px 5px, black -3px 0px 5px, black 0px 3px 5px, black 0px -3px 5px;
+}
+
+header, footer {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   height: auto;
+   background: #9900FF;
+   text-align: center;
+}
+
+div {
+   margin-top: 10px;
+   background: #E8E8E8;
+}
+
+button {
+   margin-right: 2px;
+   margin-left: 2px;
+   padding: 2px;
+   color: #fff;
+   background-color: #7B00FF;
+   border-radius: 5px;
+   font-size: 16px;
+   box-shadow: inset black 3px 3px 5px, inset black -3px -3px 5px;
+}
+
+header button {
+   max-width: 125px;
+   width: 100%;
+}
+
+footer button {
+   width: auto;
+}
+
+button a {
+   color: white;
+   text-decoration: none;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+button a:hover {
+   color: #4A86E8;
+}
+
+footer a, footer a:hover {
+   color: white;
+   text-decoration: none;
+   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, hr {
+   margin: 0;
+}
+
+h1 {font-size: 2rem}
+h2 {font-size: 1.8rem}
+h3 {font-size: 1.6rem}
+h4 {font-size: 1.4rem}
+h5 {font-size: 1.2rem}
+h6 {font-size: 1.1rem}
+p {font-size: 1.1rem;}
+
+.div-null-shadow {
+   box-shadow: none;
+}
+
+.div-null-margin {
+   margin-top: 0;
+}
+
+.div-null-padding {
+   padding: 0;
+}
+
+.div-null-bg {
+   background: none;
+}
+
+.br30 {
+   border-radius: 30px;
+}
+
+.br10 {
+   border-radius: 10px;
+}
+
+.margin10 {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+/*Элементы сайта*/
+.news {
+   width: 100%;
+   height: auto;
+   border-left: 2px ridge purple;
+   border-right: 2px ridge purple;
+}
+
+.new-card h2 {
+   color: #005B5B;
+}
+
+.new-card p {
+   color: #6600AA;
+}
+
+.welcome {
+   text-align: center;
+}
