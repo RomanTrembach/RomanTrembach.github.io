@@ -149,3 +149,13 @@ p {
    font-size: medium;
    background-color: #7B00FF;
 }
+
+.on {
+   background-color: #7B00FF;
+   color: white;
+}
+
+.off {
+   background-color: #005B5B;
+   color: white;
+}
