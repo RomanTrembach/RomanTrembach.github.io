@@ -63,7 +63,7 @@ p {
 }
 
 .toggler {
-   font-weight: 550;
+   font-weight: 600;
 }
 
 .title, .welcome {
@@ -116,7 +116,7 @@ p {
    }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
    h2 {
        font-size: 4rem;
    }
