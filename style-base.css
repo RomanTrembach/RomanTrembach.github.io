@@ -40,6 +40,10 @@ nav button, .toggler, .toggler:active, .toggler:focus {
    background: none;
 }
 
+.nav-collapse, .dropdown-item {
+   background: #221E21;
+}
+
 footer {
    margin-top: 10px;
 }
