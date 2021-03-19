@@ -1,0 +1,60 @@
+* {
+   outline: none;
+}
+html {
+   background: #9AD28B;
+}
+body {
+   background: none;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+nav {
+   background: #221E21;
+   padding: 10px;
+   text-align: center;
+}
+footer {
+   background: #221E21;
+   text-align: center;
+   color: ivory;
+   padding: 5px;
+   margin-top: 10px;
+}
+hr {
+   background: ivory;
+   color: ivory;
+}
+.carousel-nav-button, .carousel-nav-button:active, .carousel-nav-button:focus {
+   border-radius: 100px;
+   background: #9AD28B;
+   border: #221E21 solid 1px;
+   outline: none;
+   height: 15px;
+   width: 10px;
+   margin: 10px;
+}
+.carousel-control-prev, .carousel-control-next {
+   background: none;
+   border: none;
+}
+h1, h2, h3, h4, h5, h6, p, span, code, a, button {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 550;
+}
+h1, h6 {
+   font-size: 3rem;
+}
+.mobile-nav{
+   display: none;
+}
+
+@media screen and (max-width: 820px) {
+   .pc-nav {
+       display: none;
+   }
+   .mobile-nav {
+      display: block;
+   }
+}
