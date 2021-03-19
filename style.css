@@ -1,3 +1,38 @@
+nav a, .toggler {
+   text-decoration: none;
+   font-size: 1.2rem;
+   font-weight: 500;
+   color: ivory;
+}
+
+nav a:hover {
+   color: #9AD28B;
+}
+
+nav button, .toggler, .toggler:active, .toggler:focus {
+   min-width: 10vw;
+   margin-left: 2vw;
+   margin-right: 2vw;
+   background: none;
+   border: none;
+   box-shadow: none;
+   outline: none;
+}
+
+h2 {
+   font-weight: 500;
+   font-size: 10rem;
+   color: #221E21;
+}
+
+span {
+   color: ivory;
+}
+
+p {
+   margin: 10px;
+}
+
 .welcome {
    background: #FCE373;
    padding-bottom: 1vh;
@@ -10,6 +45,12 @@
    color: #221E21;
    background: #A385BD;
    padding: 10px;
+}
+
+.nav-collapse, .dropdown-item {
+   text-align: center;
+   background: #221E21;
+   color: ivory;
 }
 
 .d-block {
@@ -25,49 +66,24 @@
    font-weight: 600;
 }
 
-.title, .welcome, .nav-collapse, .dropdown-item {
+.title, .welcome {
    text-align: center;
 }
 
 .new-project {
    background: rosybrown;
    width: 30vw;
+   height: auto;
    display: inline-block;
    margin: 5px;
    padding: 5px;
 }
 
 .new-project img {
+   height: auto;
    width: 90%;
    margin-left: 5%;
    margin-right: 5%;
-}
-
-.new-project, .new-project img {
-   height: auto;
-}
-
-.carousel-nav-button, .carousel-nav-button:active, .carousel-nav-button:focus {
-   border-radius: 100px;
-   background: #9AD28B;
-   border: #221E21 solid 1px;
-   outline: none;
-   height: 15px;
-   width: 10px;
-   margin: 10px;
-}
-.carousel-control-prev, .carousel-control-next {
-   background: none;
-   border: none;
-}
-
-@media screen and (max-width: 820px) {
-   .pc-nav {
-       display: none;
-   }
-   .mobile-nav {
-      display: block;
-   }
 }
 
 @media screen and (max-width: 900px) {
@@ -75,11 +91,13 @@
        display: none;
    }
 }
+
 @media screen and (max-width: 1050px) {
    h2 {
        font-size: 6rem;
    }
 }
+
 @media screen and (max-width: 800px) {
    h2 {
        font-size: 5rem;
@@ -97,16 +115,19 @@
       width: 50%;
    }
 }
+
 @media screen and (max-width: 600px) {
    h2 {
        font-size: 4rem;
    }
 }
+
 @media screen and (max-width: 450px) {
    h2 {
        font-size: 3rem;
    }
 }
+
 @media screen and (max-width: 350px) {
    h2 {
        font-size: 2rem;
