@@ -17,12 +17,7 @@
 nav, footer {
    background: #221E21;
 }
-footer {
-   margin-top: 10px;
-}
-hr {
-   background: ivory;
-}
+
 nav a, .toggler {
    font-size: 1.2rem;
 }
@@ -36,6 +31,14 @@ nav button, .toggler, .toggler:active, .toggler:focus {
    margin-left: 2vw;
    margin-right: 2vw;
    background: none;
+}
+
+footer {
+   margin-top: 10px;
+}
+
+hr {
+   background: ivory;
 }
 
 h1, h6 {
