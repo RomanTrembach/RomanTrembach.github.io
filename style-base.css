@@ -44,6 +44,10 @@ nav button, .toggler, .toggler:active, .toggler:focus {
    background: #221E21;
 }
 
+.mobile-nav{
+   display: none;
+}
+
 footer {
    margin-top: 10px;
 }
