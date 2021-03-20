@@ -116,7 +116,11 @@ p {
    }
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 550px) {
+=======
+@media screen and (max-width: 600px) {
+>>>>>>> parent of 86cd346 (Fix)
    h2 {
        font-size: 4rem;
    }
